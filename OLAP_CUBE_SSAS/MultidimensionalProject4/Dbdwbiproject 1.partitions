@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2243617-5e67-4859-9ba6-4ffbe88b4e15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dbdwbiproject 1</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Outpatient Details</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cbf9c933-eefd-4505-a74f-b47375bab770">
+          <ID>Fact Outpatient Details</ID>
+          <Name>Fact Outpatient Details</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0f5505e7-6b5d-4e12-890d-c9c7fcf1efed">
+            <DataSourceViewID>Dbdwbiproject</DataSourceViewID>
+            <TableID>dbo_fact_outpatient_details</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Inpatient Treatments</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2cf21a66-2adc-442e-a120-b704492d56ed">
+          <ID>Fact Inpatient Treatments</ID>
+          <Name>Fact Inpatient Treatments</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1d39f6cc-db39-40f5-bc2d-265c51b3c379">
+            <DataSourceViewID>Dbdwbiproject</DataSourceViewID>
+            <TableID>dbo_fact_inpatient_treatments</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Hosp Measures</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b7c7cdc2-fa0a-4b87-b3c8-80ae06949546">
+          <ID>Fact Hosp Measures</ID>
+          <Name>Fact Hosp Measures</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="50a991d3-860c-418b-9b0f-2815573cfbd3">
+            <DataSourceViewID>Dbdwbiproject</DataSourceViewID>
+            <TableID>dbo_fact_hosp_measures</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Hcpcs</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e6fddc9d-286f-45fb-a487-93a0ac3b0fe7">
+          <ID>Fact Hcpcs</ID>
+          <Name>Fact Hcpcs</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="962db6ee-014b-44f7-a1f1-5d58bebe81f4">
+            <DataSourceViewID>Dbdwbiproject</DataSourceViewID>
+            <TableID>dbo_fact_hcpcs</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
