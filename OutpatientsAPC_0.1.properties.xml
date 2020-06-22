@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_ozgpMIGyEeqKnMyI8vv9TQ" id="_ozgCIIGyEeqKnMyI8vv9TQ" label="OutpatientsAPC" purpose="Column analysis for OutpatientsAPC for every column present in this dataset" description="Outpatients APC column analysis for all the columns after the data conversion. The data is fetched from the SSMS database" version="0.1" statusCode="development" item="_ozgpMoGyEeqKnMyI8vv9TQ" displayName="OutpatientsAPC">
+    <author href="../../talend.project#_p7J0sFK1Eeqdz-8k7YsUVg"/>
+    <additionalProperties xmi:id="_ozh3UIGyEeqKnMyI8vv9TQ" key="created_product_fullname" value="Talend Open Studio for Data Quality"/>
+    <additionalProperties xmi:id="_ozh3UYGyEeqKnMyI8vv9TQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ozh3UoGyEeqKnMyI8vv9TQ" key="created_date" value="2020-04-18T16:24:43.077-0400"/>
+    <additionalProperties xmi:id="_ozh3U4GyEeqKnMyI8vv9TQ" key="modified_product_fullname" value="Talend Open Studio for Data Quality"/>
+    <additionalProperties xmi:id="_ozh3VIGyEeqKnMyI8vv9TQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ozh3VYGyEeqKnMyI8vv9TQ" key="modified_date" value="2020-04-23T17:00:22.598-0400"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_ozgpMYGyEeqKnMyI8vv9TQ" path=""/>
+  <dataquality.properties:TDQAnalysisItem xmi:id="_ozgpMoGyEeqKnMyI8vv9TQ" property="_ozgpMIGyEeqKnMyI8vv9TQ" state="_ozgpMYGyEeqKnMyI8vv9TQ" filename="OutpatientsAPC_0.1.ana">
+    <analysis href="OutpatientsAPC_0.1.ana#_ozgCIYGyEeqKnMyI8vv9TQ"/>
+  </dataquality.properties:TDQAnalysisItem>
+</xmi:XMI>

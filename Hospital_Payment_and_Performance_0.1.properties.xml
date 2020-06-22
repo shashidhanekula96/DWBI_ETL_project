@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:dataquality.properties="http://dataquality.properties">
+  <TalendProperties:Property xmi:id="_OzqcC4GyEeqKnMyI8vv9TQ" id="_OzqcAIGyEeqKnMyI8vv9TQ" label="Hospital_Payment_and_Performance" purpose="Column analysis of every column present for Hospital Payment and performance" description="Hospital Payment and Performance column analysis for all the columns after the data conversion. The data is fetched from the SSMS database" version="0.1" statusCode="development" item="_OzqcDYGyEeqKnMyI8vv9TQ" displayName="Hospital Payment and Performance">
+    <author href="../../talend.project#_p7J0sFK1Eeqdz-8k7YsUVg"/>
+    <additionalProperties xmi:id="_OzrqIIGyEeqKnMyI8vv9TQ" key="created_product_fullname" value="Talend Open Studio for Data Quality"/>
+    <additionalProperties xmi:id="_OzrqIYGyEeqKnMyI8vv9TQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_OzrqIoGyEeqKnMyI8vv9TQ" key="created_date" value="2020-04-18T16:21:48.610-0400"/>
+    <additionalProperties xmi:id="_OzrqI4GyEeqKnMyI8vv9TQ" key="modified_product_fullname" value="Talend Open Studio for Data Quality"/>
+    <additionalProperties xmi:id="_OzrqJIGyEeqKnMyI8vv9TQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_OzrqJYGyEeqKnMyI8vv9TQ" key="modified_date" value="2020-04-23T17:00:22.476-0400"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_OzqcDIGyEeqKnMyI8vv9TQ" path=""/>
+  <dataquality.properties:TDQAnalysisItem xmi:id="_OzqcDYGyEeqKnMyI8vv9TQ" property="_OzqcC4GyEeqKnMyI8vv9TQ" state="_OzqcDIGyEeqKnMyI8vv9TQ" filename="Hospital_Payment_and_Performance_0.1.ana">
+    <analysis href="Hospital_Payment_and_Performance_0.1.ana#_OzqcAYGyEeqKnMyI8vv9TQ"/>
+  </dataquality.properties:TDQAnalysisItem>
+</xmi:XMI>
